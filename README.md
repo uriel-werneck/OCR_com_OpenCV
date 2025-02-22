@@ -12,14 +12,14 @@ A abordagem inclui técnicas de otimização de imagem, como conversão para ton
 
 ## ⚙️ Configuração do Tesseract
 Além das bibliotecas Python, é necessário instalar o Tesseract OCR no sistema:
-- Windows:
+### Windows
 Baixe o instalador em: [Tesseact OCR](https://github.com/UB-Mannheim/tesseract/wiki).
-- Linux:
+### Linux
 ```bash
 sudo apt update
 sudo apt install tesseract-ocr
 ```
-- Configuração no Código:
+### Configuração no Código
 ```python
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Caminho para o Windows
