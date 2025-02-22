@@ -1,4 +1,4 @@
-# 📝 OCR_com_OpenCV
+# 📝 Otimizacao_OCR
 
 ## 📄 Descrição
 Este projeto demonstra como o OpenCV pode ser utilizado para pré-processar imagens e melhorar os resultados do OCR (Optical Character Recognition) utilizando o Pytesseract.
